@@ -3,6 +3,9 @@
   sudo: required
   language: go
   dist: trusty
+  arch:
+    - AMD64
+    - ppc64le
   osx_image: xcode10.1
   os:
     - linux
